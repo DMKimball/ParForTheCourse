@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour {
 
     public AudioSource victoryAudioSource;
 
+    public Interactions_GolfBall golfBall;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -27,5 +29,10 @@ public class GameManager : MonoBehaviour {
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
+
+    public void respawnBall()
+    {
+
     }
 }
