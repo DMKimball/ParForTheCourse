@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour {
 
     public Interactions_GolfBall golfBall;
 
+    public GameObject[] putters;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -35,9 +37,20 @@ public class GameManager : MonoBehaviour {
     {
 
     }
+
     IEnumerator ChangeScenesAfterDelay(float time)
     {
         yield return new WaitForSeconds(time);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void smallerPutter()
+    {
+
+    }
+
+    public void largerPutter()
+    {
+
     }
 }
