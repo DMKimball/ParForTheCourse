@@ -120,7 +120,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 31160137}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 114315631}
   - component: {fileID: 114315630}
   - component: {fileID: 114315627}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 222958847}
   - component: {fileID: 222958846}
   - component: {fileID: 222958844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_1 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 405387254}
   - component: {fileID: 405387253}
   - component: {fileID: 405387251}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal_Flag:Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,48 +411,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 405387250}
   m_Mesh: {fileID: 4300006, guid: 6a67ecfdb432b4c4a967f310fb477d6b, type: 3}
---- !u!1001 &678808824
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4002344490719622, guid: 3084b7912a773ff4d9372be821f3ad13, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4002344490719622, guid: 3084b7912a773ff4d9372be821f3ad13, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.684
-      objectReference: {fileID: 0}
-    - target: {fileID: 4002344490719622, guid: 3084b7912a773ff4d9372be821f3ad13, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0.097
-      objectReference: {fileID: 0}
-    - target: {fileID: 4002344490719622, guid: 3084b7912a773ff4d9372be821f3ad13, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0.58318686
-      objectReference: {fileID: 0}
-    - target: {fileID: 4002344490719622, guid: 3084b7912a773ff4d9372be821f3ad13, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4002344490719622, guid: 3084b7912a773ff4d9372be821f3ad13, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4002344490719622, guid: 3084b7912a773ff4d9372be821f3ad13, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.8123381
-      objectReference: {fileID: 0}
-    - target: {fileID: 4002344490719622, guid: 3084b7912a773ff4d9372be821f3ad13, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 3084b7912a773ff4d9372be821f3ad13, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &688617931
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +442,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &688617933
 BoxCollider:
@@ -657,6 +615,7 @@ MonoBehaviour:
   changeScenesOnVictory: 0
   victoryAudioSource: {fileID: 811674821}
   golfBall: {fileID: 843018640}
+  putters: []
 --- !u!4 &811674823
 Transform:
   m_ObjectHideFlags: 0
@@ -668,7 +627,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &843018639
 Prefab:
@@ -707,7 +666,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4070265393279258, guid: 001b1695f38d70f4095a1df8b7187f3d, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114340800309115048, guid: 001b1695f38d70f4095a1df8b7187f3d,
         type: 2}
@@ -736,7 +695,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 861740430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,7 +742,7 @@ GameObject:
   - component: {fileID: 977118920}
   - component: {fileID: 977118919}
   - component: {fileID: 977118917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hole_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +832,7 @@ GameObject:
   - component: {fileID: 1037334814}
   - component: {fileID: 1037334813}
   - component: {fileID: 1037334812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -945,7 +904,7 @@ GameObject:
   - component: {fileID: 1055062903}
   - component: {fileID: 1055062902}
   - component: {fileID: 1055062900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal_Flag:Flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,7 +993,7 @@ GameObject:
   - component: {fileID: 1067109675}
   - component: {fileID: 1067109674}
   - component: {fileID: 1067109672}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_4 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1122,7 +1081,7 @@ GameObject:
   - component: {fileID: 1070113916}
   - component: {fileID: 1070113915}
   - component: {fileID: 1070113913}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1236,7 +1195,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4467847599375126, guid: 2227faef01f5f6b42b5db86452541032, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224249944814706522, guid: 2227faef01f5f6b42b5db86452541032,
         type: 2}
@@ -1318,6 +1277,46 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114927437447236286, guid: 2227faef01f5f6b42b5db86452541032,
+        type: 2}
+      propertyPath: grabToggleButton
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114927437447236286, guid: 2227faef01f5f6b42b5db86452541032,
+        type: 2}
+      propertyPath: pointerToggleButton
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114927437447236286, guid: 2227faef01f5f6b42b5db86452541032,
+        type: 2}
+      propertyPath: pointerSetButton
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114927437447236286, guid: 2227faef01f5f6b42b5db86452541032,
+        type: 2}
+      propertyPath: useToggleButton
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114927437447236286, guid: 2227faef01f5f6b42b5db86452541032,
+        type: 2}
+      propertyPath: uiClickButton
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114633770112221258, guid: 2227faef01f5f6b42b5db86452541032,
+        type: 2}
+      propertyPath: grabToggleButton
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114348250696001206, guid: 2227faef01f5f6b42b5db86452541032,
+        type: 2}
+      propertyPath: grabButton
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114521086453752974, guid: 2227faef01f5f6b42b5db86452541032,
+        type: 2}
+      propertyPath: grabButton
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2227faef01f5f6b42b5db86452541032, type: 2}
   m_IsPrefabParent: 0
@@ -1368,7 +1367,7 @@ Transform:
   m_LocalScale: {x: 0.2, y: 0.02, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1492576760
 GameObject:
@@ -1380,7 +1379,7 @@ GameObject:
   - component: {fileID: 1492576761}
   - component: {fileID: 1492576763}
   - component: {fileID: 1492576762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1452,7 +1451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 900728783}
   - component: {fileID: 1537706709}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hole2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1518,7 +1517,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1649676487}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Course
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1537,7 +1536,7 @@ Transform:
   m_Children:
   - {fileID: 900728783}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1652064950
 GameObject:
@@ -1550,7 +1549,7 @@ GameObject:
   - component: {fileID: 1652064954}
   - component: {fileID: 1652064953}
   - component: {fileID: 1652064951}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1638,7 +1637,7 @@ GameObject:
   - component: {fileID: 1656235197}
   - component: {fileID: 1656235196}
   - component: {fileID: 1656235194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Window_Mill_Base_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1727,7 +1726,7 @@ GameObject:
   - component: {fileID: 1682969476}
   - component: {fileID: 1682969475}
   - component: {fileID: 1682969473}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Window_Mill_Base_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1816,7 +1815,7 @@ GameObject:
   - component: {fileID: 1715782125}
   - component: {fileID: 1715782124}
   - component: {fileID: 1715782122}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1893,6 +1892,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1715782121}
   m_Mesh: {fileID: 4300022, guid: 6a67ecfdb432b4c4a967f310fb477d6b, type: 3}
+--- !u!1 &1791749407 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1306358060182998, guid: 2227faef01f5f6b42b5db86452541032,
+    type: 2}
+  m_PrefabInternal: {fileID: 1093247645}
+--- !u!114 &1791749409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791749407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58cdac96da703d7488a11cc3bde08cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToGrab: {fileID: 114886542624679710, guid: 3084b7912a773ff4d9372be821f3ad13,
+    type: 2}
+  objectIsPrefab: 1
+  cloneGrabbedObject: 1
+  alwaysCloneOnEnable: 0
+  interactTouch: {fileID: 0}
+  interactGrab: {fileID: 0}
 --- !u!1 &1811351921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1958,6 +1980,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1960062450 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1123187567325938, guid: 2227faef01f5f6b42b5db86452541032,
+    type: 2}
+  m_PrefabInternal: {fileID: 1093247645}
+--- !u!114 &1960062452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960062450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58cdac96da703d7488a11cc3bde08cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToGrab: {fileID: 114886542624679710, guid: 3084b7912a773ff4d9372be821f3ad13,
+    type: 2}
+  objectIsPrefab: 1
+  cloneGrabbedObject: 1
+  alwaysCloneOnEnable: 0
+  interactTouch: {fileID: 0}
+  interactGrab: {fileID: 0}
 --- !u!43 &1983427793
 Mesh:
   m_ObjectHideFlags: 0
@@ -2097,7 +2142,7 @@ GameObject:
   - component: {fileID: 2046582408}
   - component: {fileID: 2046582407}
   - component: {fileID: 2046582405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_3 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2185,7 +2230,7 @@ GameObject:
   - component: {fileID: 2135128564}
   - component: {fileID: 2135128563}
   - component: {fileID: 2135128561}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
