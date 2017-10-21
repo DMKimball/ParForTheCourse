@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour {
 
     public GameObject[] putters;
 
+    public int startingPutterIndex;
+
+    private int currentPutterIndex;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -46,11 +50,19 @@ public class GameManager : MonoBehaviour {
 
     public void smallerPutter()
     {
+        print("Switching to smaller putter!");
+        if (currentPutterIndex - 1 >= 0)
+        {
 
+        }
     }
 
     public void largerPutter()
     {
+        print("Switching to larger putter!");
+        if (currentPutterIndex + 1 < putters.Length)
+        {
 
+        }
     }
 }

@@ -32,11 +32,13 @@ public class InputManager : MonoBehaviour {
 
             if (touchpad.y > 0.3f)
             {
+                print("Pressed top part of touch pad!");
                 gameManager.largerPutter();
             }
 
             else if (touchpad.y < -0.3f)
             {
+                print("Pressed bottom part of touch pad!");
                 gameManager.smallerPutter();
             }
 
