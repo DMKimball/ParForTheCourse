@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParForTheCourse.Plugins", "ParForTheCourse.Plugins.csproj", "{C91F6E81-4C92-02B1-4647-58AB86F9B1FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParForTheCourse", "ParForTheCourse.csproj", "{58C6A9B1-2596-0669-F212-D603838185B4}"
