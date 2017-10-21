@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/DKimball_TestScene.unity
-  isLoaded: 1
-  isActive: 1
