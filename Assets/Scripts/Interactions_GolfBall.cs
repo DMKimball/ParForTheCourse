@@ -8,15 +8,14 @@ public class Interactions_GolfBall : MonoBehaviour {
 
     public GameManager gameManager;
 
-    private Rigidbody rigidbody;
+    public InputManager inputManager;
 
-    //The number of times the ball has been hit by
-    private int timesHit = 0;
+    private Rigidbody rBody;
 
 	// Use this for initialization
 	void Start () {
-        rigidbody = GetComponent<Rigidbody>();
-        respawn();
+        rBody = GetComponent<Rigidbody>();
+        Respawn();
 	}
 	
 	// Update is called once per frame
@@ -32,19 +31,22 @@ public class Interactions_GolfBall : MonoBehaviour {
         }
         else if (other.CompareTag("BallKiller"))
         {
-            respawn();
+            Respawn();
         }
-
     }
 
-    public void respawn()
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("Putter"))
+        {
+            print("Ball Hit!");
+            gameManager.IncrementNumTimesBallHit();
+            inputManager.Vibrate();
+        }
+    }
+    public void Respawn()
     {
         transform.position = spawnPoint.position;
-        rigidbody.velocity = Vector3.zero;
-    }
-
-    public void incrementTimesHit()
-    {
-        timesHit++;
+        rBody.velocity = Vector3.zero;
     }
 }

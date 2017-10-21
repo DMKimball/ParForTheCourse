@@ -30,18 +30,23 @@ public class InputManager : MonoBehaviour {
         {
             Vector2 touchpad = (Controller.GetAxis(Valve.VR.EVRButtonId.k_EButton_Axis0));
 
-            if (touchpad.y > 0.3f)
+            if (touchpad.y > 0.2f)
             {
                 print("Pressed top part of touch pad!");
-                gameManager.largerPutter();
+                gameManager.LargerPutter();
             }
 
-            else if (touchpad.y < -0.3f)
+            else if (touchpad.y < -0.2f)
             {
                 print("Pressed bottom part of touch pad!");
-                gameManager.smallerPutter();
+                gameManager.SmallerPutter();
             }
 
         }
+    }
+
+    public void Vibrate()
+    {
+        Controller.TriggerHapticPulse(100);
     }
 }
