@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Gary_BallTestScene.unity
+    guid: b8459802c7638c545ab3fd040125f32c
+  - enabled: 1
+    path: Assets/Scenes/Gary_BallTestScene_2.unity
+    guid: 9611802d97fe98c4d888d56ff9aa12a9
