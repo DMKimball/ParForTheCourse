@@ -27,12 +27,17 @@ public class GameManager : MonoBehaviour {
         victoryAudioSource.Play();
         if (changeScenesOnVictory)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            StartCoroutine(ChangeScenesAfterDelay(3));
         }
     }
 
     public void respawnBall()
     {
 
+    }
+    IEnumerator ChangeScenesAfterDelay(float time)
+    {
+        yield return new WaitForSeconds(time);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
