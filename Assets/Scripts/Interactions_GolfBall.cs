@@ -21,15 +21,17 @@ public class Interactions_GolfBall : MonoBehaviour {
 		
 	}
 
-    void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.collider.CompareTag("Goal"))
+        if (other.CompareTag("Goal"))
         {
             gameManager.victory();
-        } else if (collision.collider.CompareTag("BallKiller"))
+        }
+        else if (other.CompareTag("BallKiller"))
         {
             respawn();
         }
+
     }
 
     public void respawn()
