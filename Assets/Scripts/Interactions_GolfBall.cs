@@ -8,11 +8,14 @@ public class Interactions_GolfBall : MonoBehaviour {
 
     public GameManager gameManager;
 
+    private Rigidbody rigidbody;
+
     //The number of times the ball has been hit by
     private int timesHit = 0;
 
 	// Use this for initialization
 	void Start () {
+        rigidbody = GetComponent<Rigidbody>();
         respawn();
 	}
 	
@@ -37,6 +40,7 @@ public class Interactions_GolfBall : MonoBehaviour {
     public void respawn()
     {
         transform.position = spawnPoint.position;
+        rigidbody.velocity = Vector3.zero;
     }
 
     public void incrementTimesHit()
