@@ -11,6 +11,8 @@ public class Interactions_GolfBall : MonoBehaviour
 
     public InputManager inputManager;
 
+    public GameObject victoryText1, victoryText2;
+
     private Rigidbody rBody;
 
     // Use this for initialization
@@ -30,6 +32,8 @@ public class Interactions_GolfBall : MonoBehaviour
     {
         if (other.CompareTag("Goal"))
         {
+            if (victoryText1 != null) victoryText1.SetActive(true);
+            if (victoryText2 != null) victoryText2.SetActive(true);
             gameManager.Victory();
             StartCoroutine(RespawnBallAfterDelay(2));
         }
