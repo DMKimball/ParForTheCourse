@@ -600,6 +600,120 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 217377458}
   m_Mesh: {fileID: 4300032, guid: 1b9ffbde1dc41c8438d4d3540e48ff7d, type: 3}
+--- !u!1 &331261094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1414741518599502, guid: 8c994c1c6bfa8384c9152e54bda37c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 331261095}
+  - component: {fileID: 331261101}
+  - component: {fileID: 331261100}
+  - component: {fileID: 331261099}
+  - component: {fileID: 331261098}
+  - component: {fileID: 331261097}
+  - component: {fileID: 331261096}
+  m_Layer: 2
+  m_Name: Ball Spawn Point 2
+  m_TagString: BallKiller
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &331261095
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4760698901372010, guid: 8c994c1c6bfa8384c9152e54bda37c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 331261094}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15000014, y: 0.82, z: 1.8600004}
+  m_LocalScale: {x: 1.900001, y: 1, z: 0.90000033}
+  m_Children: []
+  m_Father: {fileID: 1393124845}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &331261096
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65353278060247802, guid: 8c994c1c6bfa8384c9152e54bda37c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 331261094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.49, y: 0.19, z: 6.38}
+  m_Center: {x: 0, y: -1.03, z: -2.16}
+--- !u!65 &331261097
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65259912793744174, guid: 8c994c1c6bfa8384c9152e54bda37c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 331261094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.49, y: 0.19, z: 6.38}
+  m_Center: {x: 0, y: 2.22, z: -2.16}
+--- !u!65 &331261098
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65674227780206790, guid: 8c994c1c6bfa8384c9152e54bda37c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 331261094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.63, y: 3.41, z: 0.22}
+  m_Center: {x: 0, y: 0.57, z: 0.98}
+--- !u!65 &331261099
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65121589549983732, guid: 8c994c1c6bfa8384c9152e54bda37c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 331261094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.28, y: 3.3, z: 0.21}
+  m_Center: {x: 0, y: 0.59, z: -5.27}
+--- !u!65 &331261100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65763581452497888, guid: 8c994c1c6bfa8384c9152e54bda37c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 331261094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 3.23, z: 6.14}
+  m_Center: {x: 1.72, y: 0.65, z: -2.13}
+--- !u!65 &331261101
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65225996791340478, guid: 8c994c1c6bfa8384c9152e54bda37c3b,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 331261094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 3.44, z: 6.29}
+  m_Center: {x: -1.7, y: 0.58, z: -2.18}
 --- !u!1 &373514897 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1946838232493262, guid: 2227faef01f5f6b42b5db86452541032,
@@ -875,99 +989,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 592329484}
   m_Mesh: {fileID: 4300028, guid: 1b9ffbde1dc41c8438d4d3540e48ff7d, type: 3}
---- !u!1 &635602947
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 635602948}
-  - component: {fileID: 635602953}
-  - component: {fileID: 635602952}
-  - component: {fileID: 635602951}
-  - component: {fileID: 635602950}
-  - component: {fileID: 635602949}
-  m_Layer: 2
-  m_Name: Ball Spawn Point 2
-  m_TagString: BallKiller
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &635602948
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 635602947}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15, y: 1.21, z: 2.51}
-  m_LocalScale: {x: 1.9, y: 1, z: 0.9}
-  m_Children: []
-  m_Father: {fileID: 1393124845}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &635602949
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 635602947}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.49, y: 0.19, z: 6.38}
-  m_Center: {x: 0, y: 1.67, z: -2.66}
---- !u!65 &635602950
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 635602947}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.63, y: 3.41, z: 0.22}
-  m_Center: {x: 0, y: 0, z: 0.48}
---- !u!65 &635602951
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 635602947}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.28, y: 3.3, z: 0.21}
-  m_Center: {x: 0, y: 0, z: -5.77}
---- !u!65 &635602952
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 635602947}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.25, y: 3.23, z: 6.14}
-  m_Center: {x: 1.72, y: 0, z: -2.63}
---- !u!65 &635602953
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 635602947}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.25, y: 3.44, z: 6.29}
-  m_Center: {x: -1.7, y: 0, z: -2.68}
 --- !u!1 &649937257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1096,7 +1117,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 688617931}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3.49, y: 0.19, z: 6.38}
@@ -1660,13 +1681,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4070265393279258, guid: 001b1695f38d70f4095a1df8b7187f3d, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114340800309115048, guid: 001b1695f38d70f4095a1df8b7187f3d,
         type: 2}
       propertyPath: spawnPoint
       value: 
-      objectReference: {fileID: 635602948}
+      objectReference: {fileID: 331261095}
     - target: {fileID: 114340800309115048, guid: 001b1695f38d70f4095a1df8b7187f3d,
         type: 2}
       propertyPath: gameManager
@@ -1711,6 +1732,7 @@ GameObject:
   - component: {fileID: 1092715106}
   - component: {fileID: 1092715108}
   - component: {fileID: 1092715107}
+  - component: {fileID: 1092715109}
   m_Layer: 8
   m_Name: Goal_Flag:Goal
   m_TagString: Untagged
@@ -1773,6 +1795,20 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1092715105}
+  m_Mesh: {fileID: 4300004, guid: 1b9ffbde1dc41c8438d4d3540e48ff7d, type: 3}
+--- !u!64 &1092715109
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1092715105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 1b9ffbde1dc41c8438d4d3540e48ff7d, type: 3}
 --- !u!1 &1136207730
 GameObject:
@@ -2279,8 +2315,8 @@ Transform:
   m_LocalScale: {x: 1.5700006, y: 1.3, z: 1.8100004}
   m_Children:
   - {fileID: 1580216164}
-  - {fileID: 635602948}
   - {fileID: 1062863659}
+  - {fileID: 331261095}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
