@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Interactions_GolfBall : MonoBehaviour {
+public class Interactions_GolfBall : MonoBehaviour
+{
 
     public Transform spawnPoint;
 
@@ -12,22 +13,25 @@ public class Interactions_GolfBall : MonoBehaviour {
 
     private Rigidbody rBody;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         rBody = GetComponent<Rigidbody>();
         Respawn();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Goal"))
         {
-            gameManager.victory();
+            gameManager.Victory();
+            StartCoroutine(RespawnBallAfterDelay(2));
         }
         else if (other.CompareTag("BallKiller"))
         {
@@ -48,5 +52,17 @@ public class Interactions_GolfBall : MonoBehaviour {
     {
         transform.position = spawnPoint.position;
         rBody.velocity = Vector3.zero;
+    }
+
+    public void SetSpawnPoint(Transform sp)
+    {
+        spawnPoint = sp;
+    }
+
+    IEnumerator RespawnBallAfterDelay(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        Respawn();
     }
 }

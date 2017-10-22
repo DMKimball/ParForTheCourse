@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour {
-
-    public bool changeScenesOnVictory;
-
+public class GameManager : MonoBehaviour
+{
     public AudioSource victoryAudioSource;
 
-    public Interactions_GolfBall golfBall;
+    public Interactions_GolfBall[] golfBalls;
 
     public GameObject[] putters;
 
@@ -17,38 +15,27 @@ public class GameManager : MonoBehaviour {
 
     private int currentPutterIndex;
 
+    private int currRoundIndex;
+
     //The number of times the ball has been hit by
     private int numTimesBallHit = 0;
 
     // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    public void victory()
+    void Start()
     {
-        print("User won Round");
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    public void Victory()
+    {
+        Debug.Log("User won Course");
         victoryAudioSource.Play();
-        if (changeScenesOnVictory)
-        {
-            StartCoroutine(ChangeScenesAfterDelay(3));
-        }
-    }
-
-    public void RespawnBall()
-    {
-        golfBall.Respawn();
-    }
-
-    IEnumerator ChangeScenesAfterDelay(float time)
-    {
-        yield return new WaitForSeconds(time);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void SmallerPutter()
