@@ -5,6 +5,8 @@ using UnityEngine;
 public class InputManager : MonoBehaviour {
 
     public GameManager gameManager;
+
+    public GameObject controllerGameObject;
     private SteamVR_TrackedObject trackedObj;
 
     private SteamVR_Controller.Device Controller
@@ -20,7 +22,7 @@ public class InputManager : MonoBehaviour {
 
     private void Awake()
     {
-        trackedObj = GetComponent<SteamVR_TrackedObject>();
+        trackedObj = controllerGameObject.GetComponent<SteamVR_TrackedObject>();
     }
 
     // Update is called once per frame
@@ -47,6 +49,7 @@ public class InputManager : MonoBehaviour {
 
     public void Vibrate()
     {
-        Controller.TriggerHapticPulse(100);
+        Debug.Log(Controller);
+        Controller.TriggerHapticPulse(500);
     }
 }
