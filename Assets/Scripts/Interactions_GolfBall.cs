@@ -48,8 +48,9 @@ public class Interactions_GolfBall : MonoBehaviour
             inputManager.Vibrate();
         }
     }
-    public void Respawn()
+    private void Respawn()
     {
+        Debug.Log("Spawned Ball");
         transform.position = spawnPoint.position;
         rBody.velocity = Vector3.zero;
     }
