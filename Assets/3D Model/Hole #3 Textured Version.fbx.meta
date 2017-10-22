@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 15931d624333f6b40a2c61e27c591156
+timeCreated: 1508643484
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: D
+    100002: Goal_Flag:Flag
+    100004: Goal_Flag:Goal
+    100006: h
+    100008: //RootNode
+    100010: Hole__3
+    100012: i
+    100014: i_1
+    100016: i_dot
+    100018: idot_1
+    100020: l
+    100022: l_2
+    100024: r
+    100026: r_2
+    100028: Sign_Sign:Sign_Pole:Sign
+    100030: transform1
+    100032: W
+    100034: y
+    100036: y_2
+    400000: D
+    400002: Goal_Flag:Flag
+    400004: Goal_Flag:Goal
+    400006: h
+    400008: //RootNode
+    400010: Hole__3
+    400012: i
+    400014: i_1
+    400016: i_dot
+    400018: idot_1
+    400020: l
+    400022: l_2
+    400024: r
+    400026: r_2
+    400028: Sign_Sign:Sign_Pole:Sign
+    400030: transform1
+    400032: W
+    400034: y
+    400036: y_2
+    2300000: D
+    2300002: Goal_Flag:Flag
+    2300004: Goal_Flag:Goal
+    2300006: h
+    2300008: Hole__3
+    2300010: i
+    2300012: i_1
+    2300014: i_dot
+    2300016: idot_1
+    2300018: l
+    2300020: l_2
+    2300022: r
+    2300024: r_2
+    2300026: Sign_Sign:Sign_Pole:Sign
+    2300028: W
+    2300030: y
+    2300032: y_2
+    3300000: D
+    3300002: Goal_Flag:Flag
+    3300004: Goal_Flag:Goal
+    3300006: h
+    3300008: Hole__3
+    3300010: i
+    3300012: i_1
+    3300014: i_dot
+    3300016: idot_1
+    3300018: l
+    3300020: l_2
+    3300022: r
+    3300024: r_2
+    3300026: Sign_Sign:Sign_Pole:Sign
+    3300028: W
+    3300030: y
+    3300032: y_2
+    4300000: Hole__3
+    4300002: Goal_Flag:Flag
+    4300004: Goal_Flag:Goal
+    4300006: Sign_Sign:Sign_Pole:Sign
+    4300008: W
+    4300010: y_2
+    4300012: l_2
+    4300014: r_2
+    4300016: i_1
+    4300018: idot_1
+    4300020: D
+    4300022: y
+    4300024: l
+    4300026: r
+    4300028: i
+    4300030: i_dot
+    4300032: h
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Yellow
+    second: {fileID: 2100000, guid: 61c1453f4ee6e234b8f443f4330e1309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 4e90c3704cbda444da40a082029beb70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sign_Sign_Sign_Pole_wood
+    second: {fileID: 2100000, guid: 21424979c95566543bbfa5991f6eb205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue
+    second: {fileID: 2100000, guid: 17680e85ee64cc64f83ba3e71a4aa647, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue_stripe
+    second: {fileID: 2100000, guid: c7d40973025ad0f4faf016afb857c571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass
+    second: {fileID: 2100000, guid: 10c8a57e8c5af3242bb9eca6109282a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mahogany
+    second: {fileID: 2100000, guid: 02cee39c6226b014ab5e3f304eb6fcc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange
+    second: {fileID: 2100000, guid: b3a39019f3f928c4e9cf07f3d1547a22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: bc6a0ab98dc41184eb86bddcd9769902, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
