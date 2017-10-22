@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 3c32a1f28f0e0ff47a3e4015586ed5f7
+timeCreated: 1508632742
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: D
+    100002: Flag
+    100004: Goal
+    100006: //RootNode
+    100008: Hole_1
+    100010: i
+    100012: i_dot
+    100014: o
+    100016: oo
+    100018: r
+    100020: s
+    100022: Sign
+    100024: t
+    400000: D
+    400002: Flag
+    400004: Goal
+    400006: //RootNode
+    400008: Hole_1
+    400010: i
+    400012: i_dot
+    400014: o
+    400016: oo
+    400018: r
+    400020: s
+    400022: Sign
+    400024: t
+    2300000: D
+    2300002: Flag
+    2300004: Goal
+    2300006: Hole_1
+    2300008: i
+    2300010: i_dot
+    2300012: o
+    2300014: oo
+    2300016: r
+    2300018: s
+    2300020: Sign
+    2300022: t
+    3300000: D
+    3300002: Flag
+    3300004: Goal
+    3300006: Hole_1
+    3300008: i
+    3300010: i_dot
+    3300012: o
+    3300014: oo
+    3300016: r
+    3300018: s
+    3300020: Sign
+    3300022: t
+    4300000: Hole_1
+    4300002: Goal
+    4300004: Flag
+    4300006: Sign
+    4300008: D
+    4300010: o
+    4300012: r
+    4300014: i
+    4300016: i_dot
+    4300018: t
+    4300020: oo
+    4300022: s
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: 10c8a57e8c5af3242bb9eca6109282a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 4e90c3704cbda444da40a082029beb70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doritos
+    second: {fileID: 2100000, guid: 1158fc80769fa0f4ab05462d8c9647ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange
+    second: {fileID: 2100000, guid: b3a39019f3f928c4e9cf07f3d1547a22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_yellow
+    second: {fileID: 2100000, guid: 61c1453f4ee6e234b8f443f4330e1309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red_orange
+    second: {fileID: 2100000, guid: 682b27f4a19081245b2f7c2d117031f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stripe
+    second: {fileID: 2100000, guid: cf58fb730a34dc7458e89a9b6d5d92c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: bc6a0ab98dc41184eb86bddcd9769902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: 21424979c95566543bbfa5991f6eb205, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

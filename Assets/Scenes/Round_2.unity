@@ -1227,38 +1227,6 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 249
       objectReference: {fileID: 0}
-    - target: {fileID: 114600609282567280, guid: 2227faef01f5f6b42b5db86452541032,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114677804568328578, guid: 2227faef01f5f6b42b5db86452541032,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114677804568328578, guid: 2227faef01f5f6b42b5db86452541032,
-        type: 2}
-      propertyPath: objectToGrab
-      value: 
-      objectReference: {fileID: 114554972641879260, guid: 3084b7912a773ff4d9372be821f3ad13,
-        type: 2}
-    - target: {fileID: 114600609282567280, guid: 2227faef01f5f6b42b5db86452541032,
-        type: 2}
-      propertyPath: objectToGrab
-      value: 
-      objectReference: {fileID: 114554972641879260, guid: 3084b7912a773ff4d9372be821f3ad13,
-        type: 2}
-    - target: {fileID: 114430786226614102, guid: 2227faef01f5f6b42b5db86452541032,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114614408516846974, guid: 2227faef01f5f6b42b5db86452541032,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2227faef01f5f6b42b5db86452541032, type: 2}
   m_IsPrefabParent: 0
