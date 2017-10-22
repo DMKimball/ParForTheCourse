@@ -49,6 +49,7 @@ public class Interactions_GolfBall : MonoBehaviour
         {
             print("Ball Hit!");
             gameManager.IncrementNumTimesBallHit();
+            gameManager.HitSound();
             inputManager.Vibrate();
         }
     }

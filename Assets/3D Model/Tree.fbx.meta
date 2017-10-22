@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 43dc1bb173df7e04a88cdb92ae933379
 timeCreated: 1508647397
+=======
+guid: 7bf2f7b44ee24614da1f83087f55d41e
+timeCreated: 1508647678
+>>>>>>> 00bc1396fb46f10e0697ba62d0b98940c0a09548
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -21,22 +26,38 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: green_1
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 7925aabc617ea3942a58371ec62ced85, type: 2}
+=======
+    second: {fileID: 2100000, guid: 00ba53d728c677d4b885d9d19ff22f9f, type: 2}
+>>>>>>> 00bc1396fb46f10e0697ba62d0b98940c0a09548
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: green_2
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: f2a72fc33e76d7f46b46d8b7b8b8ea9d, type: 2}
+=======
+    second: {fileID: 2100000, guid: 0913816d8c8db7d4bafe4446f8e37c9a, type: 2}
+>>>>>>> 00bc1396fb46f10e0697ba62d0b98940c0a09548
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: green_3
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 80c964409ce2ec340ac07d17f9832703, type: 2}
+=======
+    second: {fileID: 2100000, guid: b4998e52b966b7c4bb630de857aeab8b, type: 2}
+>>>>>>> 00bc1396fb46f10e0697ba62d0b98940c0a09548
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tree_bark
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 615f9151b5d80d944afb9334104e28b6, type: 2}
+=======
+    second: {fileID: 2100000, guid: 3ba3a707199448e4ca872fc44ffc3b21, type: 2}
+>>>>>>> 00bc1396fb46f10e0697ba62d0b98940c0a09548
   materials:
     importMaterials: 1
     materialName: 0
