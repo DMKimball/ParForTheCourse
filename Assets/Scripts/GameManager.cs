@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
 {
     public AudioSource victoryAudioSource;
 
+    public AudioSource hitAudioSource;
+
+    public AudioSource ambienceAudioSource;
+
     public Interactions_GolfBall[] golfBalls;
 
     public GameObject[] putters;
@@ -36,6 +40,11 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("User won Course");
         victoryAudioSource.Play();
+    }
+
+    public void HitSound()
+    {
+        hitAudioSource.Play();
     }
 
     public void SmallerPutter()
