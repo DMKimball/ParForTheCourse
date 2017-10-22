@@ -13,8 +13,15 @@ public class GameManager : MonoBehaviour {
 
     public GameObject[] putters;
 
-	// Use this for initialization
-	void Start () {
+    public int startingPutterIndex;
+
+    private int currentPutterIndex;
+
+    //The number of times the ball has been hit by
+    private int numTimesBallHit = 0;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -33,9 +40,9 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public void respawnBall()
+    public void RespawnBall()
     {
-
+        golfBall.Respawn();
     }
 
     IEnumerator ChangeScenesAfterDelay(float time)
@@ -44,13 +51,31 @@ public class GameManager : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void smallerPutter()
+    public void SmallerPutter()
     {
+        print("Switching to smaller putter!");
+        if (currentPutterIndex - 1 >= 0)
+        {
 
+        }
     }
 
-    public void largerPutter()
+    public void LargerPutter()
     {
+        print("Switching to larger putter!");
+        if (currentPutterIndex + 1 < putters.Length)
+        {
 
+        }
+    }
+
+    public void IncrementNumTimesBallHit()
+    {
+        numTimesBallHit++;
+    }
+
+    public int GetNumTimesBallHit()
+    {
+        return numTimesBallHit;
     }
 }
