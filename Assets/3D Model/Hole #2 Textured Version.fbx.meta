@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 1b9ffbde1dc41c8438d4d3540e48ff7d
+timeCreated: 1508638144
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: a
+    100002: Fan_1
+    100004: Fan_1 1
+    100006: Fan_2
+    100008: Fan_2 1
+    100010: Fan_3
+    100012: Fan_3 1
+    100014: Fan_4
+    100016: Fan_4 1
+    100018: g
+    100020: Goal_Flag:Flag
+    100022: Goal_Flag:Goal
+    100024: //RootNode
+    100026: Hole_2
+    100028: l
+    100030: n
+    100032: o
+    100034: S
+    100036: Sign_Pole:Sign
+    100038: Solvang_Text:transform1
+    100040: v
+    100042: Window_Mill_Base_1
+    100044: Window_Mill_Base_2
+    400000: a
+    400002: Fan_1
+    400004: Fan_1 1
+    400006: Fan_2
+    400008: Fan_2 1
+    400010: Fan_3
+    400012: Fan_3 1
+    400014: Fan_4
+    400016: Fan_4 1
+    400018: g
+    400020: Goal_Flag:Flag
+    400022: Goal_Flag:Goal
+    400024: //RootNode
+    400026: Hole_2
+    400028: l
+    400030: n
+    400032: o
+    400034: S
+    400036: Sign_Pole:Sign
+    400038: Solvang_Text:transform1
+    400040: v
+    400042: Window_Mill_Base_1
+    400044: Window_Mill_Base_2
+    2300000: a
+    2300002: Fan_1
+    2300004: Fan_1 1
+    2300006: Fan_2
+    2300008: Fan_2 1
+    2300010: Fan_3
+    2300012: Fan_3 1
+    2300014: Fan_4
+    2300016: Fan_4 1
+    2300018: g
+    2300020: Goal_Flag:Flag
+    2300022: Goal_Flag:Goal
+    2300024: Hole_2
+    2300026: l
+    2300028: n
+    2300030: o
+    2300032: S
+    2300034: Sign_Pole:Sign
+    2300036: v
+    2300038: Window_Mill_Base_1
+    2300040: Window_Mill_Base_2
+    3300000: a
+    3300002: Fan_1
+    3300004: Fan_1 1
+    3300006: Fan_2
+    3300008: Fan_2 1
+    3300010: Fan_3
+    3300012: Fan_3 1
+    3300014: Fan_4
+    3300016: Fan_4 1
+    3300018: g
+    3300020: Goal_Flag:Flag
+    3300022: Goal_Flag:Goal
+    3300024: Hole_2
+    3300026: l
+    3300028: n
+    3300030: o
+    3300032: S
+    3300034: Sign_Pole:Sign
+    3300036: v
+    3300038: Window_Mill_Base_1
+    3300040: Window_Mill_Base_2
+    4300000: Hole_2
+    4300002: Goal_Flag:Flag
+    4300004: Goal_Flag:Goal
+    4300006: Window_Mill_Base_1
+    4300008: Fan_1
+    4300010: Fan_2
+    4300012: Fan_3
+    4300014: Fan_4
+    4300016: Window_Mill_Base_2
+    4300018: Fan_1
+    4300020: Fan_2
+    4300022: Fan_3
+    4300024: Fan_4
+    4300026: Sign_Pole:Sign
+    4300028: S
+    4300030: o
+    4300032: l
+    4300034: v
+    4300036: a
+    4300038: n
+    4300040: g
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown
+    second: {fileID: 2100000, guid: 13c607af62a2aab4989dacfee50e2e4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green
+    second: {fileID: 2100000, guid: 655749804385243469f45ac4096010a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 4e90c3704cbda444da40a082029beb70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sign_Pole_wood
+    second: {fileID: 2100000, guid: 21424979c95566543bbfa5991f6eb205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass
+    second: {fileID: 2100000, guid: 10c8a57e8c5af3242bb9eca6109282a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plastic_yellow
+    second: {fileID: 2100000, guid: 61c1453f4ee6e234b8f443f4330e1309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: purple_dark_wood
+    second: {fileID: 2100000, guid: 41ba880e3966bc748bf2f00460a3279d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: purple_light
+    second: {fileID: 2100000, guid: fdec2eaded9456340a99b82651131888, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: purple_stripe
+    second: {fileID: 2100000, guid: c56d15ae8cf1cc54993e91a3d2d74567, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: bc6a0ab98dc41184eb86bddcd9769902, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_wood
+    second: {fileID: 2100000, guid: cf7bcab410372384998f26fafeb88864, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: 21424979c95566543bbfa5991f6eb205, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
