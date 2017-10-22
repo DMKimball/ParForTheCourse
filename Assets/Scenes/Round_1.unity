@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 16636638}
   - component: {fileID: 16636640}
   - component: {fileID: 16636639}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: o
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 55708200}
   - component: {fileID: 55708199}
   - component: {fileID: 55708198}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Window_Mill_Base_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 146620320}
   - component: {fileID: 146620319}
   - component: {fileID: 146620318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_4 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 147125425}
   - component: {fileID: 147125424}
   - component: {fileID: 147125423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sign_Pole:Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 190935819}
   - component: {fileID: 190935821}
   - component: {fileID: 190935820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: g
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -536,7 +536,7 @@ GameObject:
   - component: {fileID: 217377459}
   - component: {fileID: 217377461}
   - component: {fileID: 217377460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   - component: {fileID: 407108157}
   - component: {fileID: 407108159}
   - component: {fileID: 407108158}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: v
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,7 +687,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 475247487}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FanHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -719,7 +719,7 @@ GameObject:
   - component: {fileID: 482812346}
   - component: {fileID: 482812345}
   - component: {fileID: 482812344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,7 +806,7 @@ GameObject:
   - component: {fileID: 592329485}
   - component: {fileID: 592329487}
   - component: {fileID: 592329486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,7 +979,7 @@ GameObject:
   - component: {fileID: 649937261}
   - component: {fileID: 649937260}
   - component: {fileID: 649937259}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1285,7 +1285,7 @@ GameObject:
   - component: {fileID: 837744722}
   - component: {fileID: 837744724}
   - component: {fileID: 837744723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: n
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1427,7 +1427,7 @@ GameObject:
   - component: {fileID: 856284963}
   - component: {fileID: 856284962}
   - component: {fileID: 856284961}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_1 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1711,7 +1711,7 @@ GameObject:
   - component: {fileID: 1092715106}
   - component: {fileID: 1092715108}
   - component: {fileID: 1092715107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal_Flag:Goal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1785,7 +1785,7 @@ GameObject:
   - component: {fileID: 1136207734}
   - component: {fileID: 1136207733}
   - component: {fileID: 1136207732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1873,7 +1873,7 @@ GameObject:
   - component: {fileID: 1261022917}
   - component: {fileID: 1261022916}
   - component: {fileID: 1261022915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Window_Mill_Base_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2023,7 +2023,7 @@ GameObject:
   - component: {fileID: 1317270837}
   - component: {fileID: 1317270836}
   - component: {fileID: 1317270835}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_3 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2112,7 +2112,7 @@ GameObject:
   - component: {fileID: 1353254415}
   - component: {fileID: 1353254414}
   - component: {fileID: 1353254413}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2214,7 +2214,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1386829630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FanHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2362,7 +2362,7 @@ GameObject:
   - component: {fileID: 1491717405}
   - component: {fileID: 1491717404}
   - component: {fileID: 1491717403}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hole_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2454,7 +2454,7 @@ GameObject:
   - component: {fileID: 1503677716}
   - component: {fileID: 1503677715}
   - component: {fileID: 1503677714}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Goal_Flag:Flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2545,7 +2545,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1534909294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Solvang_Text:transform1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2576,7 +2576,7 @@ GameObject:
   - component: {fileID: 1538360202}
   - component: {fileID: 1538360201}
   - component: {fileID: 1538360200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fan_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2662,7 +2662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1580216164}
   - component: {fileID: 1580216165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 'Hole #2 Textured Version'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2793,7 +2793,7 @@ GameObject:
   - component: {fileID: 1696889738}
   - component: {fileID: 1696889740}
   - component: {fileID: 1696889739}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
